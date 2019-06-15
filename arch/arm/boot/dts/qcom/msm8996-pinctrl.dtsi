@@ -230,8 +230,8 @@
 				bias-disable;
 			};
 		};
-
-
+//[ANNA_ISDBT_BRINGUP_S] : duplicated
+/*
 		blsp1_uart3_active: blsp1_uart3_active {
 			mux {
 				pins = "gpio45", "gpio46", "gpio47", "gpio48";
@@ -257,7 +257,8 @@
 				bias-disable;
 			};
 		};
-
+*/
+//[ANNA_ISDBT_BRINGUP_E]
 		blsp1_uart5_active: blsp1_uart5_active {
 			mux {
 				pins = "gpio81", "gpio82";
@@ -2886,6 +2887,8 @@
 			};
 		};
 
+		/* LGE_BROADCAST_ISDBT_JAPAN Start */
+		/*
 		tsif0_signals_active: tsif0_signals_active {
 			tsif1_clk {
 				pins = "gpio89"; /* TSIF0 CLK */
@@ -2915,6 +2918,8 @@
 				bias-pull-down;		/* pull down */
 			};
 		};
+		*/
+		/* LGE_BROADCAST_ISDBT_JAPAN End */
 
 		tsif1_signals_active: tsif1_signals_active {
 			tsif2_clk {
